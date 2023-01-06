@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<web-app>
+
+    <servlet>
+
+        <servlet-name>Genda</servlet-name>
+
+        <servlet-class>servlet.GendaServlet</servlet-class>
+
+    </servlet>
+
+
+
+    <servlet-mapping>
+
+        <servlet-name>Genda</servlet-name>
+
+        <url-pattern>/Genda</url-pattern>
+
+    </servlet-mapping>
+
+</web-app>
